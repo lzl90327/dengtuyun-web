@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { ArrowUpRight } from "lucide-react";
+// Footer component - no external icons needed
 
 import { Button } from "@/components/ui/button";
 import { COPY } from "@/lib/copy";

@@ -12,14 +12,16 @@ export const COPY = {
     subtitle:
       "构建跨区域智能运力网络，实现可视、可控、可协同的运输基础设施。",
     capsules: ["运力网络", "透明可信", "风险可控"] as string[],
+    testimonialText: "已服务多家头部物流企业",
+    clientNames: ["某头部物流企业", "某制造业集团", "某供应链平台", "某产业园区"],
     ctaPrimary: "了解平台架构",
     ctaSecondary: "获取公司介绍",
     stats: [
-      { value: "10,000+", label: "在网车辆" },
-      { value: "50万+", label: "月度运单量" },
-      { value: "99.8%", label: "过程可视覆盖" },
-      { value: "30+", label: "重点线路覆盖" },
-    ] as { value: string; label: string }[],
+      { value: "10,000+", label: "在网车辆", trend: "+23%", trendLabel: "年度增长" },
+      { value: "50万+", label: "月度运单量", trend: "+15%", trendLabel: "季度增长" },
+      { value: "99.8%", label: "过程可视覆盖", trend: "+0.5%", trendLabel: "月度提升" },
+      { value: "30+", label: "重点线路覆盖", trend: "+5", trendLabel: "新增线路" },
+    ] as { value: string; label: string; trend: string; trendLabel: string }[],
   },
 
   // ── S2 核心能力 ───────────────────────────────────
@@ -119,6 +121,9 @@ export const COPY = {
   cta: {
     title: "获取公司介绍 / 预约交流",
     desc: "我们将提供平台能力概览与典型场景资料。",
+    urgencyBadge: "限时免费获取",
+    spotsRemaining: "仅剩 50 个优先体验名额",
+    successMessage: "客户经理将在 24 小时内与您联系",
     form: {
       fields: {
         name: { label: "姓名", placeholder: "请输入您的姓名" },
